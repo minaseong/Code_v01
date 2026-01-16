@@ -77,7 +77,7 @@ Use this notebook for:
 - **Summary metrics**: Generate JSON reports with ECG/PCG statistics
 
 **Pipeline steps:**
-1. Enumerate all data files from `data/raw/`
+1. Enumerate all data files from `data/raw/`. Download the data from the Google Drive link submitted along with the code.
 2. Group recordings by patient ID
 3. Load and process each modality independently
 4. Extract standardized features (HR, HRV, envelope peaks, MFCCs)
